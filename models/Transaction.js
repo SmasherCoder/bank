@@ -1,5 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
+const Accountdetails = require('./Accountdetails');
 
 class Tranaction extends Model {}
 
@@ -29,7 +30,11 @@ Tranaction.init(
       },
       acct_id: {
         type: DataTypes.NUMBER,
-        allowNull: false
+        allowNull: false,
+        references: {
+          model: Accountdetails,
+          key: 'id'
+        }
       }
     },
     {

@@ -16,8 +16,20 @@ Accountdetails.init(
         allowNull: false
       },
       balance: {
-          type: DataTypes.INTEGER,
-          allowNull: false
+        type: DataTypes.INTEGER,
+        allowNull: false
+      },
+      account_name: {
+        type: DataTypes.STRING,
+        allowNull: false
+      },
+      user_name: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        references: {
+          model: 'user',
+          key: 'id'
+        }
       }
     },
     {

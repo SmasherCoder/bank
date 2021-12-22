@@ -24,10 +24,6 @@ Tranaction.init(
         type: DataTypes.DECIMAL,
         allowNull: false
       },
-      status: {
-        type: DataTypes.BOOLEAN,
-        allowNull: false
-      },
       acct_id: {
         type: DataTypes.NUMBER,
         allowNull: false,

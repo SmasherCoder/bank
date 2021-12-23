@@ -1,7 +1,11 @@
 const express = require("express");
 // const routes = require('./routes');
-const sequelize = require("./config/connection");
-
+// const sequelize = require("./config/connection");
+const User = require('./models/User');
+const Accountdetails = require('./models/Accountdetails');
+const Transaction = require('./models/Transaction');
+// const { Sequelize } = require("sequelize/dist");
+const sequelize = require('./config/connection.js');
 
 const PORT = process.env.PORT || 3001;
 const app = express();
@@ -22,7 +26,6 @@ app.get("/", (req, res) => {
 //     res.status(404).end();
 //   });
 
-// sync sequelize models to the database, then turn on the server
 sequelize.sync({ force: true }).then(() => {
   app.listen(PORT, () => console.log(`App listening on port ${PORT}!`));
 });

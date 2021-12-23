@@ -4,40 +4,40 @@ const sequelize = require('../config/connection');
 class Accountdetails extends Model {}
 
 Accountdetails.init(
-    {
-      id: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-        primaryKey: true,
-        autoIncrement: true
-      },
-      account_number: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-      },
-      balance: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-      },
-      account_name: {
-        type: DataTypes.STRING,
-        allowNull: false
-      },
-      user_name: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        references: {
-          model: 'user',
-          key: 'id'
-        }
-      }
+  {
+    id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true
     },
-    {
-      sequelize,
-      freezeTableName: true,
-      underscored: true,
-      modelName: 'Accountdetails'
+    account_number: {
+      type: DataTypes.INTEGER,
+      allowNull: false
+    },
+    balance: {
+      type: DataTypes.DECIMAL,
+      allowNull: false
+    },
+    account_name: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    user_name: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      references: {
+        model: 'user',
+        key: 'id'
+      }
     }
-  );
-  
-  module.exports = Accountdetails;
+  },
+  {
+    sequelize,
+    freezeTableName: true,
+    underscored: true,
+    modelName: 'Accountdetails'
+  }
+);
+
+module.exports = Accountdetails;

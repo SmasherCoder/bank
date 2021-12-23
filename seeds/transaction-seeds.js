@@ -29,7 +29,7 @@ function generateCheckingArray(){
     for (let i = 0; i < 30; i++) { 
         let fakeDate = faker.date.between('2021-02-01', '2021-02-30');
         let type = randomTranType();
-        let fakeAmount = faker.finance.amount;
+        let fakeAmount = faker.finance.amount();
         let accountId = 1;  
          records.push(
             {date: `${fakeDate}`, type: `${type}`, amount: `${fakeAmount}`, acct_id: `${accountId}`});
@@ -44,10 +44,11 @@ function generateSavingsArray(){
     for (let i = 0; i < 30; i++) {
         let fakeDate = faker.date.between('2021-02-01', '2021-02-30');
         let type = randomSavingsTranType();
-        let fakeAmount = faker.finance.amount;
+        let fakeAmount = faker.finance.amount();
         let accountId = 2;
         records.push(
-            {date: `${fakeDate}`, type: `${type}`, amount: `${fakeAmount}`, acct_id: `${accountId}`});  
+            {date: `${fakeDate}`, type: `${type}`, amount: `${fakeAmount}`, acct_id: `${accountId}`}); 
+        console.log(records); 
     }
     csvWriter.writeRecords(records)
     .then(() => {

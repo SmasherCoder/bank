@@ -16,9 +16,9 @@ Tranaction.init(
       type: DataTypes.STRING,
       allowNull: false
     },
-    type: {
+    description: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
     amount: {
       type: DataTypes.DECIMAL,

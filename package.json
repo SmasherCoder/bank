@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "node server.js",
-    "seeds": "node seeds/index.js"
+    "seeds": "node seeds/index.js",
+    "trans": "node seeds/transaction-seeds.js"
   },
   "repository": {
     "type": "git",

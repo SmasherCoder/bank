@@ -19,7 +19,6 @@ function randomSavingsTranType() {
 }
 
 function generateCheckingArray() {
-    let fakeDateArray = [];
     for (let i = 0; i < 30; i++) {
         let fakeDate = faker.date.between('2021-02-01', '2021-02-30');
         //converts faker date to string
@@ -43,7 +42,6 @@ function generateCheckingArray() {
 };
 
 function generateSavingsArray() {
-    let fakeDateArrayTwo = [];
     for (let i = 0; i < 30; i++) {
         let fakeDate = faker.date.between('2021-02-01', '2021-02-30');
         //converts faker date to string

@@ -1,61 +1,61 @@
 date,description,amount,acct_id
-2021-02-06,payment transaction at Farrell Inc using card ending with ***5581 ,3.25,1
-2021-02-02,invoice transaction at Dietrich, Bartoletti and Ankunding using card ending with ***6546 ,72.49,1
-2021-02-22,withdrawal transaction at Goldner LLC using card ending with ***5954 ,636.70,1
-2021-02-19,deposit transaction at Daniel, Stoltenberg and Tremblay using card ending with ***0182 ,423.25,1
-2021-02-18,deposit transaction at Greenholt Group using card ending with ***0013 ,704.21,1
-2021-02-19,payment transaction at Schimmel and Sons using card ending with ***5603 ,964.60,1
-2021-02-08,payment transaction at Daugherty LLC using card ending with ***7982 ,556.93,1
-2021-02-18,payment transaction at Nicolas - Dach using card ending with ***4917 ,843.02,1
-2021-02-18,invoice transaction at Kessler Group using card ending with ***0589 ,198.97,1
-2021-02-03,withdrawal transaction at Pfannerstill - Goyette using card ending with ***9184 ,870.40,1
-2021-02-20,deposit transaction at Mraz Inc using card ending with ***3200 ,544.57,1
-2021-02-12,invoice transaction at Wolf, Spencer and Robel using card ending with ***7918 ,241.93,1
-2021-02-09,deposit transaction at Flatley Group using card ending with ***7238 ,159.99,1
-2021-02-04,deposit transaction at Schuster - O'Keefe using card ending with ***7881 ,817.94,1
-2021-02-27,withdrawal transaction at Ankunding, Hagenes and Mertz using card ending with ***4867 ,648.06,1
-2021-02-23,invoice transaction at Tromp - Gorczany using card ending with ***8255 ,959.02,1
-2021-02-05,withdrawal transaction at Towne - Wolff using card ending with ***0637 ,79.29,1
-2021-02-22,invoice transaction at O'Kon, Witting and Miller using card ending with ***6202 ,11.58,1
-2021-02-08,withdrawal transaction at Kreiger, Koepp and Herman using card ending with ***9730 ,388.56,1
-2021-02-08,payment transaction at Kautzer - Willms using card ending with ***1747 ,823.83,1
-2021-02-18,invoice transaction at Larkin Inc using card ending with ***8787 ,756.96,1
-2021-02-24,invoice transaction at Weber Inc using card ending with ***6468 ,695.04,1
-2021-02-28,payment transaction at Hansen, Keebler and Batz using card ending with ***7611 ,553.61,1
-2021-02-10,invoice transaction at Dietrich and Sons using card ending with ***5862 ,312.70,1
-2021-02-06,deposit transaction at Torphy, Labadie and Spinka using card ending with ***1995 ,99.03,1
-2021-02-26,invoice transaction at Lockman Group using card ending with ***2118 ,611.39,1
-2021-02-21,deposit transaction at Wuckert, Jacobs and Heaney using card ending with ***0637 ,928.96,1
-2021-02-17,deposit transaction at Grady, Ullrich and Wilkinson using card ending with ***0461 ,534.46,1
-2021-02-08,withdrawal transaction at Homenick LLC using card ending with ***6041 ,493.76,1
-2021-03-01,invoice transaction at Gibson, Powlowski and Schulist using card ending with ***1409 ,436.83,1
-2021-03-01,Transfer from Checking,945.45,2
-2021-02-13,Transfer from Checking,574.86,2
-2021-02-18,Deposit,624.34,2
-2021-02-22,Deposit,550.02,2
-2021-02-25,Deposit,405.44,2
-2021-02-13,Transfer from Checking,437.46,2
-2021-02-06,Transfer from Checking,674.81,2
-2021-02-20,Withdrawl from ATM,393.11,2
-2021-02-13,Withdrawl from ATM,317.32,2
-2021-02-14,Transfer from Checking,451.65,2
-2021-02-23,Transfer from Checking,817.09,2
-2021-02-20,Transfer from Checking,619.30,2
-2021-02-11,Deposit,650.92,2
-2021-02-14,Transfer from Checking,646.13,2
-2021-02-06,Deposit,554.10,2
-2021-02-16,Withdrawl from ATM,441.58,2
-2021-02-08,Withdrawl from ATM,193.13,2
-2021-02-12,Withdrawl from ATM,134.79,2
-2021-02-11,Deposit,324.15,2
-2021-02-07,Withdrawl from ATM,182.77,2
-2021-03-01,Withdrawl from ATM,196.18,2
-2021-02-10,Withdrawl from ATM,985.48,2
-2021-02-28,Deposit,48.57,2
-2021-02-26,Transfer from Checking,628.42,2
-2021-02-28,Deposit,274.85,2
-2021-02-20,Deposit,172.00,2
-2021-02-01,Transfer from Checking,377.08,2
-2021-02-16,Withdrawl from ATM,426.23,2
-2021-02-17,Withdrawl from ATM,573.59,2
-2021-02-03,Withdrawl from ATM,986.03,2
+2021-02-26,"withdrawal transaction at Kuhic, Halvorson and Mante using card ending with ***8942 ",100.94,1
+2021-02-07,"invoice transaction at Murphy, Legros and Leuschke using card ending with ***6689 ",942.42,1
+2021-02-15,withdrawal transaction at Kreiger Group using card ending with ***9998 ,905.52,1
+2021-02-14,withdrawal transaction at West - Kihn using card ending with ***5996 ,781.16,1
+2021-02-17,"invoice transaction at Prohaska, King and McKenzie using card ending with ***3378 ",897.96,1
+2021-02-24,withdrawal transaction at Luettgen Inc using card ending with ***0334 ,77.89,1
+2021-02-14,deposit transaction at Dooley LLC using card ending with ***2760 ,11.95,1
+2021-02-06,"deposit transaction at Paucek, Luettgen and Bradtke using card ending with ***2746 ",801.28,1
+2021-02-27,deposit transaction at Homenick - Johnston using card ending with ***0553 ,27.94,1
+2021-02-22,deposit transaction at Schroeder Group using card ending with ***3077 ,20.17,1
+2021-03-01,withdrawal transaction at Donnelly Inc using card ending with ***8876 ,779.51,1
+2021-02-02,payment transaction at Bashirian - Kessler using card ending with ***4518 ,755.70,1
+2021-02-22,deposit transaction at Dooley - Schaefer using card ending with ***8531 ,879.31,1
+2021-02-05,invoice transaction at Conn - Lockman using card ending with ***6785 ,65.94,1
+2021-02-23,"withdrawal transaction at Schuppe, Tillman and Hane using card ending with ***2762 ",274.67,1
+2021-02-12,deposit transaction at Bogisich - Bergstrom using card ending with ***0250 ,626.08,1
+2021-02-14,deposit transaction at Lynch - Hessel using card ending with ***9270 ,952.31,1
+2021-02-07,"deposit transaction at King, Howell and Schroeder using card ending with ***6198 ",569.32,1
+2021-02-27,deposit transaction at Fay - Weimann using card ending with ***6197 ,39.19,1
+2021-02-22,deposit transaction at Schiller Group using card ending with ***3869 ,153.01,1
+2021-02-16,payment transaction at Welch Group using card ending with ***8031 ,52.76,1
+2021-02-27,"payment transaction at Cassin, Braun and Bots",674.07,1
+2021-02-21,"deposit transaction at Rau, Hintz and Kreiger using card ending with ***3969 ",475.12,1
+2021-02-06,"withdrawal transaction at Auer, Purdy and Marvin using card ending with ***7489 ",336.35,1
+2021-02-06,invoice transaction at Mueller Inc using card ending with ***4051 ,582.20,1
+2021-02-10,withdrawal transaction at Zboncak and Sons using card ending with ***2619 ,285.51,1
+2021-02-04,invoice transaction at Monahan Group using card ending with ***9840 ,742.19,1
+2021-02-17,deposit transaction at Olson - Sipes using card ending with ***9432 ,741.25,1
+2021-02-17,payment transaction at Krajcik - Roberts using card ending with ***1835 ,725.88,1
+2021-02-21,invoice transaction at Abbott Group using card ending with ***5802 ,960.68,1
+2021-02-23,Withdrawl from ATM,428.00,2
+2021-02-23,Transfer from Checking,771.07,2
+2021-02-25,Transfer from Checking,586.71,2
+2021-02-20,Transfer from Checking,161.49,2
+2021-02-02,Transfer from Checking,555.71,2
+2021-02-14,Transfer from Checking,407.88,2
+2021-02-28,Deposit,88.58,2
+2021-02-10,Withdrawl from ATM,603.92,2
+2021-02-26,Deposit,745.60,2
+2021-02-02,Withdrawl from ATM,993.09,2
+2021-02-02,Transfer from Checking,624.91,2
+2021-03-01,Deposit,628.40,2
+2021-02-02,Deposit,508.87,2
+2021-02-07,Transfer from Checking,916.71,2
+2021-02-27,Withdrawl from ATM,744.99,2
+2021-02-01,Withdrawl from ATM,125.62,2
+2021-02-06,Transfer from Checking,265.70,2
+2021-02-05,Deposit,725.20,2
+2021-02-09,Deposit,246.70,2
+2021-02-17,Deposit,162.17,2
+2021-02-01,Withdrawl from ATM,321.37,2
+2021-02-24,Deposit,219.80,2
+2021-02-28,Withdrawl from ATM,697.80,2
+2021-02-21,Deposit,832.89,2
+2021-02-02,Transfer from Checking,317.15,2
+2021-02-20,Deposit,991.13,2
+2021-02-22,Transfer from Checking,942.96,2
+2021-02-02,Withdrawl from ATM,383.00,2
+2021-02-27,Withdrawl from ATM,646.96,2
+2021-03-01,Transfer from Checking,255.76,2

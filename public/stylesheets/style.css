@@ -11,6 +11,10 @@
     transform: translateY(-50%);
 }
 
+.form-group {
+    color: black;
+}
+
 .gotobtnch {
     margin-left: 540px;
 }

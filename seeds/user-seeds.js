@@ -5,7 +5,7 @@ const Userdata = [
         user_name: 'user',
         first_name: 'Johnny',
         last_name: 'Cash',
-        password: 'password'
+        password: 'johncash1234'
     }
 ];
 

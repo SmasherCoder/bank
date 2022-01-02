@@ -4,9 +4,9 @@ const transactionRoutes = require('./transaction-routes');
 const userRoutes = require('./user-routes');
 
 
-router.use('./accountdetails-routes', accountDetailsRoutes);
-router.use('./transaction-routes', transactionRoutes);
-router.use('./user-routes', userRoutes);
+router.use('/accountdetails', accountDetailsRoutes);
+router.use('/transaction', transactionRoutes);
+router.use('/users', userRoutes);
 
 
 module.exports = router;

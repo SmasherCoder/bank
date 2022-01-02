@@ -2,14 +2,14 @@ const router = require("express").Router();
 const { User } = require('../../models');
 
 router.post('/login', (req, res) => {
-    // expects {email: 'lernantino@gmail.com', password: 'password1234'}
+    // expects {user: 'user', password: 'password'}
     User.findOne({
         where: {
-            email: req.body.email
+            user_name: req.body.user
         }
     }).then(dbUserData => {
         if (!dbUserData) {
-            res.status(400).json({ message: 'No user with that email address!' });
+            res.status(400).json({ message: 'No user with that user name!' });
             return;
         }
 
@@ -44,11 +44,11 @@ router.post('/logout', (req, res) => {
 router.get('/', (req, res) => {
     // Access our User model and run .findAll() method)
     User.findAll()
-      .then(dbUserData => res.json(dbUserData))
-      .catch(err => {
-        console.log(err);
-        res.status(500).json(err);
-      });
-  });
+        .then(dbUserData => res.json(dbUserData))
+        .catch(err => {
+            console.log(err);
+            res.status(500).json(err);
+        });
+});
 
 module.exports = router;

@@ -4,20 +4,20 @@ const Accountdetails = require('./Accountdetails');
 const Transaction = require('./Transaction');
 
 //associations between tables
-// Accountdetails.hasMany(Transaction, {
-//     foreignKey: 'acct_id'
-// });
+Accountdetails.hasMany(Transaction, {
+    foreignKey: 'acct_id'
+});
 
-// Transaction.belongsTo(Accountdetails, {
-//     foreignKey: 'acct_id'
-// });
+Transaction.belongsTo(Accountdetails, {
+    foreignKey: 'acct_id'
+});
 
-// User.hasMany(Accountdetails, {
-//     foreignKey: 'user_name'
-// });
+User.hasMany(Accountdetails, {
+    foreignKey: 'user_name'
+});
 
-// Accountdetails.belongsTo(User, {
-//     foreignKey: 'user_name'
-// });
+Accountdetails.belongsTo(User, {
+    foreignKey: 'user_name'
+});
 
 module.exports = { User, Accountdetails, Transaction };

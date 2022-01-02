@@ -1,0 +1,48 @@
+.navbar-dark .navbar-brand {
+    color: white;
+}
+
+.centervert {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.gotobtnch {
+    margin-left: 540px;
+}
+
+.gotobtnsv {
+    margin-left: 555px;
+}
+
+label {
+    font-size: 22px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38%;
+}
+  
+.instruct {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.acctselect {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.acctbox {
+    background-color: lightgray;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 5px;
+}

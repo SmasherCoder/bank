@@ -1,8 +1,8 @@
 date,description,amount,acct_id
 2021-02-06,payment transaction at Farrell Inc using card ending with ***5581 ,3.25,1
-2021-02-02,"invoice transaction at Dietrich, Bartoletti and Ankunding using card ending with ***6546 ",72.49,1
+2021-02-02,invoice transaction at Dietrich, Bartoletti and Ankunding using card ending with ***6546 ,72.49,1
 2021-02-22,withdrawal transaction at Goldner LLC using card ending with ***5954 ,636.70,1
-2021-02-19,"deposit transaction at Daniel, Stoltenberg and Tremblay using card ending with ***0182 ",423.25,1
+2021-02-19,deposit transaction at Daniel, Stoltenberg and Tremblay using card ending with ***0182 ,423.25,1
 2021-02-18,deposit transaction at Greenholt Group using card ending with ***0013 ,704.21,1
 2021-02-19,payment transaction at Schimmel and Sons using card ending with ***5603 ,964.60,1
 2021-02-08,payment transaction at Daugherty LLC using card ending with ***7982 ,556.93,1
@@ -10,25 +10,25 @@ date,description,amount,acct_id
 2021-02-18,invoice transaction at Kessler Group using card ending with ***0589 ,198.97,1
 2021-02-03,withdrawal transaction at Pfannerstill - Goyette using card ending with ***9184 ,870.40,1
 2021-02-20,deposit transaction at Mraz Inc using card ending with ***3200 ,544.57,1
-2021-02-12,"invoice transaction at Wolf, Spencer and Robel using card ending with ***7918 ",241.93,1
+2021-02-12,invoice transaction at Wolf, Spencer and Robel using card ending with ***7918 ,241.93,1
 2021-02-09,deposit transaction at Flatley Group using card ending with ***7238 ,159.99,1
 2021-02-04,deposit transaction at Schuster - O'Keefe using card ending with ***7881 ,817.94,1
-2021-02-27,"withdrawal transaction at Ankunding, Hagenes and Mertz using card ending with ***4867 ",648.06,1
+2021-02-27,withdrawal transaction at Ankunding, Hagenes and Mertz using card ending with ***4867 ,648.06,1
 2021-02-23,invoice transaction at Tromp - Gorczany using card ending with ***8255 ,959.02,1
 2021-02-05,withdrawal transaction at Towne - Wolff using card ending with ***0637 ,79.29,1
-2021-02-22,"invoice transaction at O'Kon, Witting and Miller using card ending with ***6202 ",11.58,1
-2021-02-08,"withdrawal transaction at Kreiger, Koepp and Herman using card ending with ***9730 ",388.56,1
+2021-02-22,invoice transaction at O'Kon, Witting and Miller using card ending with ***6202 ,11.58,1
+2021-02-08,withdrawal transaction at Kreiger, Koepp and Herman using card ending with ***9730 ,388.56,1
 2021-02-08,payment transaction at Kautzer - Willms using card ending with ***1747 ,823.83,1
 2021-02-18,invoice transaction at Larkin Inc using card ending with ***8787 ,756.96,1
 2021-02-24,invoice transaction at Weber Inc using card ending with ***6468 ,695.04,1
-2021-02-28,"payment transaction at Hansen, Keebler and Batz using card ending with ***7611 ",553.61,1
+2021-02-28,payment transaction at Hansen, Keebler and Batz using card ending with ***7611 ,553.61,1
 2021-02-10,invoice transaction at Dietrich and Sons using card ending with ***5862 ,312.70,1
-2021-02-06,"deposit transaction at Torphy, Labadie and Spinka using card ending with ***1995 ",99.03,1
+2021-02-06,deposit transaction at Torphy, Labadie and Spinka using card ending with ***1995 ,99.03,1
 2021-02-26,invoice transaction at Lockman Group using card ending with ***2118 ,611.39,1
-2021-02-21,"deposit transaction at Wuckert, Jacobs and Heaney using card ending with ***0637 ",928.96,1
-2021-02-17,"deposit transaction at Grady, Ullrich and Wilkinson using card ending with ***0461 ",534.46,1
+2021-02-21,deposit transaction at Wuckert, Jacobs and Heaney using card ending with ***0637 ,928.96,1
+2021-02-17,deposit transaction at Grady, Ullrich and Wilkinson using card ending with ***0461 ,534.46,1
 2021-02-08,withdrawal transaction at Homenick LLC using card ending with ***6041 ,493.76,1
-2021-03-01,"invoice transaction at Gibson, Powlowski and Schulist using card ending with ***1409 ",436.83,1
+2021-03-01,invoice transaction at Gibson, Powlowski and Schulist using card ending with ***1409 ,436.83,1
 2021-03-01,Transfer from Checking,945.45,2
 2021-02-13,Transfer from Checking,574.86,2
 2021-02-18,Deposit,624.34,2

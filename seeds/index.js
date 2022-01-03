@@ -1,6 +1,5 @@
 const seedAccountdetails = require('./accountdetails-seeds');
 const seedUser = require('./user-seeds');
-const seedTransaction = require('./transaction-seeds');
 
 
 const sequelize = require('../config/connection');

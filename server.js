@@ -1,5 +1,5 @@
 const express = require("express");
-const routes = require('./controllers/');
+const routes = require('./controllers');
 const User = require('./models/User');
 const Accountdetails = require('./models/Accountdetails');
 const Transaction = require('./models/Transaction');

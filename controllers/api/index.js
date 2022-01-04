@@ -5,5 +5,4 @@ const userRoutes = require('./user-routes');
 router.use('/transaction', transactionRoutes);
 router.use('/users', userRoutes);
 
-
 module.exports = router;

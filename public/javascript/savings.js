@@ -1,10 +1,10 @@
+var response = "";
 function loadTrans() {
-    const response = fetch('/api/transaction/savings', {
+    response = fetch('/api/transaction/savings', {
         method: 'GET',
-
+    }).then(res => {
+        res.json.toString(response);
     })
-    console.log(response);
-    document.getElementsByClassName("translist").innerHTML = "Hello";
-}
-
+};
 loadTrans();
+document.getElementsByClassName("translist").innerHTML = response;

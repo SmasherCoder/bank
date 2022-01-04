@@ -28,10 +28,18 @@
     </h1>
 </div>
 <div>
-    <p class="translist">
-        <!-- List of transactions -->
+    {{#each transaction}}
+    <p>
+        test
+    <article class="transaction">
+        <div class="meta">
+            {{this.dataValues.date}} {{this.dataValues.description}} {{this.dataValues.amount}}
+        </div>
+    </article>
     </p>
+    {{/each}}
 </div>
 
-<script src="/javascript/savings.js"></script>
+{{!--
+<script src="/javascript/savings.js"></script> --}}
 <script src="/javascript/logout.js"></script>

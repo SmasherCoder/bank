@@ -9,7 +9,11 @@ router.get('/savings', (req, res) => {
       acct_id: 2
     }, attributes: ['date', 'description', 'amount']
   })
-    .then(dbTransactionData => res.json(dbTransactionData))
+    .then(dbTransactionData => {
+      console.log(dbTransactionData)
+      var transaction = dbTransactionData
+      res.render("savings", { transaction })
+    })
     .catch(err => {
       console.log(err);
       res.status(500).json(err);

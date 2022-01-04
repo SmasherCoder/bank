@@ -7,16 +7,7 @@ router.get('/savings', (req, res) => {
   Transaction.findAll({
     where: {
       acct_id: 2
-    }, attributes: ['date', 'description', 'amount'], order: [['date', 'DESC']],
-    include: [
-      {
-        model: Accountdetails,
-        attributes: ['balance'],
-        where: {
-          id: 2
-        }
-      }
-    ]
+    }, attributes: ['date', 'description', 'amount'], order: [['date', 'DESC']]
   })
     .then(dbTransactionData => {
       console.log(dbTransactionData)

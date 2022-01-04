@@ -7,7 +7,16 @@ router.get('/savings', (req, res) => {
   Transaction.findAll({
     where: {
       acct_id: 2
-    }, attributes: ['date', 'description', 'amount'], order: [['date', 'DESC']]
+    }, attributes: ['date', 'description', 'amount'], order: [['date', 'DESC']],
+    include: [
+      {
+        model: Accountdetails,
+        attributes: ['balance'],
+        where: {
+          id: 2
+        }
+      }
+    ]
   })
     .then(dbTransactionData => {
       console.log(dbTransactionData)
@@ -39,17 +48,7 @@ router.get('/checking', (req, res) => {
 });
 
 
-router.get('/', (req, res) => {
-  res.render('homepage');
-});
 
-router.get('/login', (req, res) => {
-  res.render('login');
-});
-
-router.get('/acctselection', (req, res) => {
-  res.render('accountselection');
-});
 
 
 

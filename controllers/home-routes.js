@@ -47,9 +47,12 @@ router.get('/checking', (req, res) => {
     });
 });
 
+router.get('/', (req, res) => {
+  res.render('homepage');
+});
 
-
-
-
+router.get('/acctselection', (req, res) => {
+  res.render('accountselection');
+});
 
 module.exports = router;

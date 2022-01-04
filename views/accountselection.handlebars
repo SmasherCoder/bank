@@ -24,11 +24,16 @@
             your preferred account.</p>
     </div>
     <div class="acctbox navbar">
-        <label>Checking</label>
-        <button type="submit" class="btn btn-danger gotobtnch" id="checking">Go to Account</button>
+        <form action="/checking">
+            <label>Checking</label>
+            <button type="submit" class="btn btn-danger gotobtnch" id="checking">Go to Account</button>
+        </form>
     </div>
     <div class="acctbox navbar">
-        <label>Savings</label>
-        <button type="submit" class="btn btn-danger gotobtnsv" id="savings">Go to Account</button>
+        <form action="/savings">
+            <label>Savings</label>
+            <button type="submit" class="btn btn-danger gotobtnsv" id="savings"
+                action="http://localhost:3001/savings">Go to Account</button>
+        </form>
     </div>
 </div>

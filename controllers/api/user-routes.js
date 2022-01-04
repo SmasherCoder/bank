@@ -20,13 +20,13 @@ router.post('/login', (req, res) => {
             return;
         }
 
-        req.session.save(() => {
+        // req.session.save(() => {
             req.session.user_id = dbUserData.id;
             req.session.username = dbUserData.username;
             req.session.loggedIn = true;
 
             res.json({ user: dbUserData, message: 'You are now logged in!' });
-        });
+        // });
     });
 });
 
@@ -48,6 +48,21 @@ router.get('/', (req, res) => {
         .catch(err => {
             console.log(err);
             res.status(500).json(err);
+        });
+});
+
+// POST /api/users
+router.post('/', (req, res) => {
+    User.create({
+        user_name: req.body.user_name,
+        first_name: req.body.first_name,
+        last_name: req.body.last_name,
+        password: req.body.password,
+      })
+        .then(dbTransactionData => res.json(dbTransactionData))
+        .catch(err => {
+          console.log(err);
+          res.status(500).json(err);
         });
 });
 

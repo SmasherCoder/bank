@@ -30,10 +30,10 @@
 <div>
     {{#each transaction}}
     <p>
-        test
     <article class="transaction">
         <div class="meta">
-            {{this.dataValues.date}} {{this.dataValues.description}} {{this.dataValues.amount}}
+            <span>{{this.dataValues.date}}</span> <span> {{this.dataValues.description}}</span>
+            <span>${{this.dataValues.amount}}</span>
         </div>
     </article>
     </p>

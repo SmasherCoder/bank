@@ -20,12 +20,25 @@
         {{/if}}
     </div>
 </nav>
-{{#if loggedIn}}
-<div><h1>Checking Account - <!--Account Balance --></h1></div>
-<div class="translist">
-        <!-- List of transactions -->
+
+<div class="start">
+    <h1>Checking Account -
+        <!--Account Balance -->
+    </h1>
 </div>
+<div>
+    {{#each transaction}}
+    <p>
+    <article class="transaction">
+        <div class="meta">
+            <span>{{this.dataValues.date}}</span> <span> {{this.dataValues.description}}</span>
+            <span>${{this.dataValues.amount}}</span>
+        </div>
+    </article>
+    </p>
+    {{/each}}
+</div>
+
 
 <script src="/javascript/checking.js"></script>
 <script src="/javascript/logout.js"></script>
-{{/if}}

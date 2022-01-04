@@ -3,23 +3,6 @@ const { Transaction } = require('../../models');
 const sequelize = require('../../config/connection');
 
 // GET /api/transaction/checking
-router.get('/savings', (req, res) => {
-  // Access our transaction model and run .findAll() method)
-  Transaction.findAll({
-    where: {
-      acct_id: 2
-    }, attributes: ['date', 'description', 'amount']
-  })
-    .then(dbTransactionData => {
-      console.log(dbTransactionData)
-      var transaction = dbTransactionData
-      res.render("savings", { transaction })
-    })
-    .catch(err => {
-      console.log(err);
-      res.status(500).json(err);
-    });
-});
 
 // POST /api/transaction
 router.post('/', (req, res) => {

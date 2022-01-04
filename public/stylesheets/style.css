@@ -54,3 +54,15 @@ img {
 .start {
     margin-top: 100px;
 }
+
+.meta {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    padding-left: 2%;
+    justify-content: space-between;
+    padding-right: 2%;
+    border: 1px solid;
+    background: lightgray;
+}

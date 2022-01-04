@@ -25,7 +25,7 @@ router.get('/checking', (req, res) => {
   Transaction.findAll({
     where: {
       acct_id: 1
-    }, attributes: ['date', 'description', 'amount']
+    }, attributes: ['date', 'description', 'amount'], order: [['date', 'DESC']]
   })
     .then(dbTransactionData => {
       console.log(dbTransactionData)

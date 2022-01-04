@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const { Transaction } = require('../../models');
+const sequelize = require('../../config/connection');
 
 // GET /api/transaction/checking
 router.get('/savings', (req, res) => {

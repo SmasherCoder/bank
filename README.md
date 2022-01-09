@@ -21,7 +21,7 @@ A simple online banking website which allows the user to login and view the tran
  # User Story
 
  As a user 
- I WANT to login my account and view all my checkings and savings account
+ I WANT to login my account and view my checking and savings account
  
  SO THAT i can view all the transactions for individual accounts.
 

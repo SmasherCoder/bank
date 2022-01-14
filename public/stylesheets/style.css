@@ -3,12 +3,10 @@
 }
 
 .centervert {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    display: flex;        
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
 }
 
 .form-group {
@@ -16,11 +14,11 @@
 }
 
 .gotobtnch {
-    margin-left: 540px;
+    float: right;
 }
 
 .gotobtnsv {
-    margin-left: 555px;
+    float:right;
 }
 
 label {

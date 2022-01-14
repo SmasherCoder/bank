@@ -17,19 +17,21 @@
         </div>
     </div>
 </nav>
-<div class="centervert">
-    <div>
+<div class="centervert container">
+    <div class="row">
+        <div class="col-md-12">
         <h1 class="acctselect">Account Selection</h1>
         <p class="instruct">Easily navigate between your accounts by selecting the Go To Account option associated with
             your preferred account.</p>
+        </div>    
     </div>
-    <div class="acctbox navbar">
+    <div class="acctbox navbar row">
         <form action="/checking">
             <label>Checking</label>
             <button type="submit" class="btn btn-danger gotobtnch" id="checking">Go to Account</button>
         </form>
     </div>
-    <div class="acctbox navbar">
+    <div class="acctbox navbar row">
         <form action="/savings">
             <label>Savings</label>
             <button type="submit" class="btn btn-danger gotobtnsv" id="savings"

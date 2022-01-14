@@ -33,9 +33,7 @@ A simple online banking website which allows the user to login and view the tran
  # Heroku 
  https://act-bank.herokuapp.com/
 
- User: crg
-
- Password: 12345
+ contact us for demo login
 
  # Testing 
 

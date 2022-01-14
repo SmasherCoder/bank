@@ -2,7 +2,7 @@
 
 # Description
 
-A simple online banking website which allows the user to login and view the transaction history.
+A simple online banking website which allows the user to login and view the transaction history. In this web page, you are able to use your own transactions that can be linked from MySQLWorkbench to the website as a sample on how bank websites work. In can aslo organize each transactions from your latest transactions in order.
 
 # Preview
 
